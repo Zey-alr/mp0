@@ -1,1 +1,49 @@
 /* Your CSS here. */
+
+
+.italic-t{
+    font-style: italic;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.card{
+    background-color: gray;
+    padding: 70px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+   
+}
+img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.link{
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: left;
+    color: white;
+}
